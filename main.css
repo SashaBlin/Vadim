@@ -1,0 +1,36 @@
+.jumbotron {
+  background: rgb(18, 82, 85);
+  color: white;
+  padding-bottom: 80px;
+}
+.jumbotron .btn-primary {
+  background: #0c494d;
+  border-color: #5aa8c7;
+}
+.jumbotron .btn-primary:hover {
+  background: #1a308f;
+}
+.jumbotron p {
+  color: #ffffff;
+  max-width: 75%;
+  margin: 1em auto 2em;
+}
+.jumbotron h1 {
+  font-size: 40px;
+}
+.navbar + .jumbotron {
+  margin-top: -20px;
+}
+.jumbotron .lang-logo {
+  display: block;
+  background: rgb(69, 93, 161);
+  border-radius: 50%;
+  overflow: hidden;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  border: 2px solid white;
+}
+.jumbotron .lang-logo img {
+  max-width: 100%;
+}
